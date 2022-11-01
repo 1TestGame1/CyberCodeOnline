@@ -31,14 +31,14 @@
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "กรุณาใส่จำนวนเงินที่คุณต้องการฝากเงิน",
+ 	 	 	 	 	"trans": "กรุณาระบุจำนวนที่ต้องการฝาก",
  	 	 	 	 	"eng": "Please enter amount you want to deposit"
  	 	 	 	},
  	 	 	 	"detail": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} Bitcoin จะได้รับเงินฝากเข้าบัญชีแก๊งของคุณสิ่งนี้ไม่สามารถย้อนกลับได้",
+ 	 	 	 	 	"trans": "${amount} bitcoin จะถูกฝากเข้าบัญชีแก๊งของคุณ ซึ่งไม่สามารถย้อนกลับได้",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
@@ -49,18 +49,18 @@
  	 	 	"editMotto": {
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "กรุณากรอกคำขวัญแก๊งค์ของคุณ",
+ 	 	 	 	 	 	"trans": "กรุณากรอกคำขวัญแก๊งของคุณ",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "แก้ไขคำขวัญแก๊งค์",
+ 	 	 	 	 	"trans": "แก้ไขคำขวัญแก๊ง",
  	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "อัปเดตภาพแก๊งค์",
+ 	 	 	 	 	"trans": "อัปเดตภาพแก๊ง",
  	 	 	 	 	"eng": "Update Gang Image"
  	 	 	 	}
  	 	 	},
@@ -105,7 +105,7 @@
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "ไม่มีแก๊งค์ได้ครอบครองบริเวณนี้",
+ 	 	 	 	 	"trans": "ยังไม่มีแก๊งค์ที่ครอบครองพื้นที่นี้",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	},
@@ -128,7 +128,7 @@
  	 	 	"colors": {
  	 	 	 	"win": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "ถอดรหัสที่ประสบความสำเร็จ",
+ 	 	 	 	 	 	"trans": "การถอดรหัสเสร็จสิ้น",
  	 	 	 	 	 	"eng": "Decryption successful"
  	 	 	 	 	},
  	 	 	 	 	"description": {
@@ -137,7 +137,7 @@
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "คุณพบกล่องยกเค้าที่ล็อคพร้อมปุ่มกดสีคุณควรจะสามารถปลดล็อกได้ด้วยลำดับสีที่ถูกต้อง",
+ 	 	 	 	 	"trans": "คุณพบกล่องที่ล็อคพร้อมปุ่มกดสีคุณควรจะสามารถปลดล็อกได้ด้วยลำดับสีที่ถูกต้อง",
  	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
  	 	 	 	},
  	 	 	 	"progress": {
@@ -174,7 +174,7 @@
  	 	},
  	 	"supportUkraine": {
  	 	 	"description": {
- 	 	 	 	"trans": "คนของยูเครนรัสเซียและโลกทั้งโลกกำลังทุกข์ทรมานเพราะความทะเยอทะยานของชายคนหนึ่ง \\n ทำให้ความรักใช้ประโยชน์ไม่ใช่สงคราม",
+ 	 	 	 	"trans": "ผู้คนในยูเครน รัสเซีย และคนทั้งโลกกำลังทุกข์ทรมานเพราะความทะเยอทะยานของคนคนเดียว \\n หาประโยชน์จากความรัก ไม่ใช่ทำสงคราม",
  	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
  	 	 	}
  	 	},
@@ -188,7 +188,7 @@
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"depositDesc": {
- 	 	 	 	"trans": "ใส่ Bitcoins เข้าธนาคาร",
+ 	 	 	 	"trans": "ฝาก Bitcoins เข้าธนาคาร",
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdraw": {
@@ -196,7 +196,7 @@
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "เอา Bitcoins ออกจากธนาคาร",
+ 	 	 	 	"trans": "ถอน Bitcoins ออกจากธนาคาร",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVault": {
@@ -204,7 +204,7 @@
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "ใส่ไอเท็มลงในห้องนิรภัยของคุณ",
+ 	 	 	 	"trans": "เก็บไอเท็มลงในห้องนิรภัยของคุณ",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVault": {
@@ -212,7 +212,7 @@
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "นำไอเท็มออกจากห้องนิรภัยของคุณ",
+ 	 	 	 	"trans": "ถอนไอเท็มออกจากห้องนิรภัยของคุณ",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlot": {
@@ -226,12 +226,12 @@
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "เพิ่มจำนวนเงินสูงสุดที่คุณสามารถเก็บไว้ในห้องนิรภัยเป็น ${upgradeToSlot}",
+ 	 	 	 	"trans": "เพิ่มจำนวนไอเท็มสูงสุดที่คุณสามารถเก็บไว้ในห้องนิรภัยเป็น ${upgradeToSlot}",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
- 	 	 	 	 	"trans": "คุณต้องการที่จะเก็บในห้องนิรภัยเท่าไหร?",
+ 	 	 	 	 	"trans": "คุณต้องการที่จะเก็บในห้องนิรภัยเท่าไหร่?",
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
@@ -243,12 +243,12 @@
  	 	 	 	 	"eng": "How much would you like to deposit?"
  	 	 	 	},
  	 	 	 	"selectWithdraw": {
- 	 	 	 	 	"trans": "คุณต้องการถอนเงินเท่าไหร?",
+ 	 	 	 	 	"trans": "คุณต้องการถอนเงินเท่าไหร่?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "คุณไม่สามารถถอนได้เมื่อคุณไม่มีเงินที่ฝากไว้",
+ 	 	 	 	"trans": "คุณไม่สามารถถอนได้เมื่อคุณไม่มียอดเงินคงเหลือ",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	}
  	 	},
@@ -276,11 +276,11 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "คุณพบตู้เซฟล็อคเก่าดูเหมือนว่ามีการโพสต์ด้วยข้อความบางอย่างที่เขียนไว้",
+ 	 	 	 	"trans": "คุณพบตู้เซฟเก่า ๆ ที่ล็อกไว้ ดูเหมือนโพสต์อิทที่มีข้อความเขียนอยู่",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "จำเป็นต้องใช้ รหัส PIN ปลดล็อค",
+ 	 	 	 	"trans": "ต้องใช้รหัส PIN เพื่อปลดล็อก",
  	 	 	 	"eng": "Pin code required to unlock"
  	 	 	},
  	 	 	"inputLabel": {
@@ -305,15 +305,15 @@
  	 	 	 	"vars": [
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "ตอบกลับถึง ${playerName}",
+ 	 	 	 	"trans": "กำลังตอบกลับ ${playerName}",
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
- 	 	 	 	"trans": "ไม่อนุญาตลิงก์",
+ 	 	 	 	"trans": "ไม่อนุญาตให้ลิงก์",
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
- 	 	 	 	"trans": "โปรดอย่าส่งข้อความที่ไร้ความหมายสแปมจะถูกปิดเสียง",
+ 	 	 	 	"trans": "กรุณาอย่าส่งข้อความที่ไม่มีความหมาย สแปมจะถูกปิดเสียง",
  	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
  	 	 	},
  	 	 	"repeatBlock": {
@@ -354,7 +354,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"vpnName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "การแชทหาประโยชน์มีผลส่งข้อความทั้งหมดที่ส่งจะมีการเปลี่ยนแปลง ใช้ ${vpnName} เพื่อรักษาความปลอดภัยการเชื่อมต่อของคุณ!",
+ 	 	 	 	 	"trans": "การหาประโยชน์จากแชทมีผล ข้อความทั้งหมดที่ส่งจะมีการเปลี่ยนแปลง ใช้ ${vpnName} เพื่อรักษาความปลอดภัยการเชื่อมต่อของคุณ!",
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
@@ -392,7 +392,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "การแชทแก๊งค์จะเปิดใช้งานเมื่อคุณอยู่ในแก๊งค์ \\ njoin แก๊งค์โดยการหาเพื่อนในการแชททั่วโลกหรือสร้างแก๊งค์ของคุณเองและเชิญเพื่อนของคุณ!",
+ 	 	 	 	 	"trans": "การแชทแก๊งค์จะเปิดใช้งานเมื่อคุณอยู่ในแก๊งค์ \\njoin แก๊งค์โดยการหาเพื่อนในการแชททั่วโลกหรือสร้างแก๊งค์ของคุณเองและเชิญเพื่อนของคุณ!",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
@@ -404,7 +404,7 @@
  	 	 	 	 	 	"cost",
  	 	 	 	 	 	"currency"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "สร้างแก๊งค์สำหรับ ${cost} ${currency}",
+ 	 	 	 	 	"trans": "สร้างแก๊งด้วยเงิน ${cost} ${currency}",
  	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
  	 	 	 	}
  	 	 	}
@@ -423,11 +423,11 @@
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "ข้อผิดพลาดของระบบ: Neural Link ขาดการเชื่อมต่อ",
+ 	 	 	 	"trans": "ข้อผิดพลาดที่สำคัญ: Neural Link ถูกตัดการเชื่อมต่อ",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
- 	 	 	 	"trans": "กำลังสร้างการเชื่อมต่อใหม่",
+ 	 	 	 	"trans": "กำลังทำการเชื่อมต่อใหม่",
  	 	 	 	"eng": "Re-establishing connection"
  	 	 	}
  	 	},
@@ -440,12 +440,12 @@
  	 	"equipment": {
  	 	 	"lowPrintLevelTip": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ระดับการปริ้นต่ำ",
+ 	 	 	 	 	"trans": "ระดับการพิมพ์ต่ำ",
  	 	 	 	 	"eng": "Low Printing Rank"
  	 	 	 	}
  	 	 	},
  	 	 	"lowPrintLevelTip2": {
- 	 	 	 	"trans": "เพิ่มระดับการปริ้นของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการปริ้นแคชอุปกรณ์",
+ 	 	 	 	"trans": "เพิ่มระดับการพิมพ์ของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการปริ้นแคชอุปกรณ์",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"lowPrintLevelTip3": {
@@ -470,7 +470,7 @@
  	 	 	},
  	 	 	"bindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "เลือกรายการที่ใช้งานได้เพื่อผูกกับชอร์ตคัต",
+ 	 	 	 	 	"trans": "เลือกรายการที่ใช้งานได้เพื่อผูกเข้ากับช่องด่วน",
  	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
  	 	 	 	}
  	 	 	}
@@ -489,7 +489,7 @@
  	 	 	 	"eng": "links"
  	 	 	},
  	 	 	"premiumShop": {
- 	 	 	 	"trans": "ร้านของขวัญ",
+ 	 	 	 	"trans": "ร้านค้าพรีเมี่ยม",
  	 	 	 	"eng": "Premium Shop"
  	 	 	},
  	 	 	"friendList": {
@@ -516,11 +516,11 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} ขั้นต่ำราคา ${timeSkipCost})",
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} นาที ค่าใช้จ่าย ${timeSkipCost} หน่วย)",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Global Skip ช่วยให้คุณข้ามเวลารอ AFK และเสร็จสิ้นทันที \n     เอฟเฟกต์นี้จะถูกนำไปใช้กับผู้เล่นทุกคนที่ทำภารกิจ AFK",
+ 	 	 	 	 	"trans": "Global Skip ให้คุณข้ามการรอ AFK และทำเสร็จทันที\r\n เอฟเฟกต์นี้จะมีผลกับผู้เล่นทุกคนที่ทำหน้าที่ AFK",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -537,13 +537,13 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "ใช้หนึ่งใน ${timeSkipItemName} ของคุณเพื่อข้าม ${itemSkipMinutes} นาที",
+ 	 	 	 	 	"trans": "ใช้หนึ่งใน ${timeSkipItemName} เพื่อข้าม ${itemSkipMinutes} นาที",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
  	 	 	"confirmModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ยืนยันการใช้ skip?",
+ 	 	 	 	 	"trans": "ยืนยันการ ข้าม?",
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
@@ -560,7 +560,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "เร่งผู้ใช้ ${skippingPlayerCount} ..",
+ 	 	 	 	 	"trans": "กำลังเร่งผู้ใช้ ${skippingPlayerCount} ราย..",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
@@ -571,7 +571,7 @@
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "กดค้างไว้เพื่อมัลติเลือก",
+ 	 	 	 	"trans": "กดค้างใว้เพื่อเลือกหลายรายการ",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
@@ -595,7 +595,7 @@
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "รายการสิ่งของ",
+ 	 	 	 	"trans": "คลังเก็บของ",
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"itemInbox": {
@@ -642,23 +642,23 @@
  	 	"itemDisplay": {
  	 	 	"broken": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ผิดปกติ",
+ 	 	 	 	 	"trans": "ทำงานผิดปกติ",
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "ไอเท็มนี้เสียหาย นำไปให้ร้านอาวุธเพื่อการซ่อมแซม",
+ 	 	 	 	 	"trans": "ไอเท็็มนี้เสียหาย นำไปให้ช่างทำอาวุธ เพื่อซ่อมแซม",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
  	 	 	"upgradeModuleTitle": {
- 	 	 	 	"trans": "การอัพเกรด",
+ 	 	 	 	"trans": "อัปเกรดสล็อต ${index}",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AOE] Area of Effect ผลกระทบของไอเท็มนี้จะมีผลกับพันธมิตรที่ต่อสู้กับคุณ",
+ 	 	 	 	"trans": "[AOE] Area of Effect เอฟเฟกต์ของไอเท็มนี้จะทำให้พันธมิตรในการต่อสู้กับคุณ",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
@@ -666,7 +666,7 @@
  	 	 	 	"eng": "Equip"
  	 	 	},
  	 	 	"cantEquip": {
- 	 	 	 	"trans": "ระดับของคุณต่ำเกินไปสำหรับไอเท็มนี้",
+ 	 	 	 	"trans": "เลเวลของคุณต่ำเกินไปสำหรับไอเท็มนี้",
  	 	 	 	"eng": "Your level is too low for this item"
  	 	 	},
  	 	 	"unequip": {
@@ -701,7 +701,7 @@
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "เปลี่ยนแคชนี้ให้เป็นอาวุธหรืออุปกรณ์ที่คุณสามารถทำได้",
+ 	 	 	 	"trans": "เปลี่ยนแคชนี้ให้เป็นอาวุธหรืออุปกรณ์ที่คุณสามารถใช้ได้",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	},
  	 	 	"openContainer": {
@@ -729,7 +729,7 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "การทำเช่นนี้จะรีเซ็ตการสอบเทียบทั้งหมดในไอเท็มของคุณ ทำให้สามารถซื้อขายได้อีกครั้ง \n       คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?",
+ 	 	 	 	 	"trans": "การทำเช่นนี้จะรีเซ็ตการปรับเทียบทั้งหมดในรายการของคุณ ยังจะทำให้สามารถซื้อขายได้อีกครั้ง \n      คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
  	 	 	 	},
  	 	 	 	"trans": "รีเซ็ตเป็นค่าจากโรงงาน",
@@ -737,7 +737,7 @@
  	 	 	},
  	 	 	"noItem": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "คุณไม่มีรายการนี้อีกต่อไป",
+ 	 	 	 	 	"trans": "คุณไม่มีไอเท็มนี้อีกต่อไป",
  	 	 	 	 	"eng": "You no longer have this item"
  	 	 	 	},
  	 	 	 	"description": {
@@ -752,7 +752,7 @@
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
- 	 	 	 	"trans": "คุณไม่มีกุญแจลับใด ๆ",
+ 	 	 	 	"trans": "คุณไม่มีกุญแจลับ",
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
@@ -768,7 +768,7 @@
  	 	},
  	 	"notificationCenter": {
  	 	 	"deleteTip": {
- 	 	 	 	"trans": "กดยาวเพื่อลบ",
+ 	 	 	 	"trans": "กดค้างเพื่อลบ",
  	 	 	 	"eng": "Long press to delete"
  	 	 	}
  	 	},
@@ -781,7 +781,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"hiddenCount"
  	 	 	 	],
- 	 	 	 	"trans": "${hiddenCount} มีปฏิสัมพันธ์เพิ่มเติมสามารถปลดล็อคได้ที่ตำแหน่งนี้ระดับขึ้นเพื่อปลดล็อค",
+ 	 	 	 	"trans": "สามารถปลดล็อกอีก ${hiddenCount} รายการที่โต้ตอบได้ในตำแหน่งนี้ เพิ่มเลเวลเพื่อปลดล็อก",
  	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
  	 	 	},
  	 	 	"travel": {
@@ -791,7 +791,7 @@
  	 	},
  	 	"npc": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "สิ่งนี้ยังไม่ได้ปลดล็อค ลองยกระดับตัวละครของคุณสิ",
+ 	 	 	 	"trans": "ยังไม่ปลดล็อค ลองเพิ่มเลเวลตัวละครของคุณ",
  	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
  	 	 	},
  	 	 	"repairItems": {
@@ -813,18 +813,18 @@
  	 	 	 	 	 	"vars": [
  	 	 	 	 	 	 	"level"
  	 	 	 	 	 	],
- 	 	 	 	 	 	"trans": "การปริ้นระดับ ${level} อุปกรณ์",
+ 	 	 	 	 	 	"trans": "การพิมพ์เลเวล ${level} equipments",
  	 	 	 	 	 	"eng": "printing level ${level} equipments"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "การปริ้นอุปกรณ์ขึ้นอยู่กับอันดับการปริ้นของคุณเพิ่มอันดับการปริ้นของคุณโดยการปริ้นรายการเพิ่มเติม",
+ 	 	 	 	 	 	"trans": "การพิมพ์อุปกรณ์ขึ้นอยู่กับอันดับการพิมพ์ของคุณ เพิ่มเลเวลการพิมพ์ของคุณโดยการพิมพ์รายการเพิ่มเติม",
  	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
  	 	 	 	 	}
  	 	 	 	}
  	 	 	},
  	 	 	"buyUnit": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "หน่วยซื้อ",
+ 	 	 	 	 	"trans": "ซื้อหน่วย",
  	 	 	 	 	"eng": "Buy Unit"
  	 	 	 	}
  	 	 	}
@@ -852,7 +852,7 @@
  	 	 	 	"eng": "title"
  	 	 	},
  	 	 	"gearScore": {
- 	 	 	 	"trans": "เลเวลอุปกรณ์",
+ 	 	 	 	"trans": "คะแนนเกียร์",
  	 	 	 	"eng": "Gear Score"
  	 	 	},
  	 	 	"location": {
@@ -891,7 +891,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"date"
  	 	 	 	],
- 	 	 	 	"trans": "ไฟล์ที่สร้างขึ้นที่ ${date}",
+ 	 	 	 	"trans": "สร้างไฟล์เมื่อ ${date}",
  	 	 	 	"eng": "file created at ${date}"
  	 	 	},
  	 	 	"numOfMember": {
@@ -900,7 +900,7 @@
  	 	 	},
  	 	 	"gangAction": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "การกระทำทางแก๊ง",
+ 	 	 	 	 	"trans": "การกระทำของแก๊ง",
  	 	 	 	 	"eng": "Gang Actions"
  	 	 	 	},
  	 	 	 	"kick": {
@@ -918,7 +918,7 @@
  	 	 	},
  	 	 	"playerActions": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "การกระทำทางผู้เล่น",
+ 	 	 	 	 	"trans": "การกระทำของผู้เล่น",
  	 	 	 	 	"eng": "Player Actions"
  	 	 	 	},
  	 	 	 	"sendPrivateMsg": {
@@ -992,7 +992,7 @@
  	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "คุณจะไม่สามารถป้อนอินสแตนซ์ดันเจี้ยนนี้ได้อีกครั้ง",
+ 	 	 	 	 	"trans": "คุณจะไม่สามารถเข้าดันเจี้ยนนี้ได้อีก",
  	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
  	 	 	 	}
  	 	 	}
@@ -1016,14 +1016,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "เพิ่มช่องเป็น ${nextSlotSize}",
+ 	 	 	 	"trans": "เพิ่มช่องเป็น ${nextSlotSize} ช่อง",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
  	 	 	},
  	 	 	"increaseSlotDescription": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "ใช้ Bitcoins เพื่อเพิ่มจำนวนรายการที่คุณสามารถใส่ในแผงขายของคุณในเวลาเดียวกัน",
+ 	 	 	 	"trans": "ใช้ Bitcoins เพื่อเพิ่มจำนวนไอเท็มที่คุณสามารถใส่ในแผงขายของคุณในเวลาเดียวกัน",
  	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
  	 	 	},
  	 	 	"cantEnterError": {
@@ -1032,7 +1032,7 @@
  	 	 	},
  	 	 	"levelSelect": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ระดับ",
+ 	 	 	 	 	"trans": "เลเวล",
  	 	 	 	 	"eng": "Level"
  	 	 	 	}
  	 	 	},
@@ -1079,7 +1079,7 @@
  	 	 	 	"eng": "Please ensure your device time is correct."
  	 	 	},
  	 	 	"manualRefresh": {
- 	 	 	 	"trans": "รีเฟรชคู่มือ",
+ 	 	 	 	"trans": "รีเฟรชด้วยตนเอง",
  	 	 	 	"eng": "Manual Refresh"
  	 	 	},
  	 	 	"abort": {
@@ -1094,7 +1094,7 @@
  	 	 	},
  	 	 	"stallShortcut": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "คอกของฉัน",
+ 	 	 	 	 	"trans": "แผงของฉัน",
  	 	 	 	 	"eng": "My Stall"
  	 	 	 	}
  	 	 	},
@@ -1103,7 +1103,7 @@
  	 	 	 	"eng": "Are you sure you want to abort?"
  	 	 	},
  	 	 	"abortWarning": {
- 	 	 	 	"trans": "โดยการยกเลิกสิ่งนี้คุณจะได้รับรางวัลใด ๆ และวัสดุที่ใช้จะไม่กลับมา",
+ 	 	 	 	"trans": "การยกเลิกจะไม่ได้รับรางวัลใด ๆ และวัสดุที่ใช้จะไม่ถูกส่งคืน",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
  	 	 	}
  	 	},
@@ -1137,7 +1137,7 @@
  	 	 	 	 	 	"eng": "Improve Printing Rank"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "อันดับการพิมพ์กำหนดระดับของรายการที่คุณพิมพ์ รับ Exp การพิมพ์โดยการพิมพ์และขายในตลาดมืด",
+ 	 	 	 	 	 	"trans": "อันดับการพิมพ์กำหนดเลเวลของรายการที่คุณพิมพ์ รับ Exp การพิมพ์โดยการพิมพ์และขายในตลาดมืด",
  	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
  	 	 	 	 	}
  	 	 	 	},
@@ -1147,7 +1147,7 @@
  	 	 	 	 	 	"eng": "Get even better equipments!"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "อุปกรณ์ปัจจุบันของคุณดูเหมือนจะล้าสมัยสำหรับระดับของคุณลองพิมพ์ที่แข็งแกร่งขึ้นเพื่อแทนที่พวกเขา",
+ 	 	 	 	 	 	"trans": "อุปกรณ์ปัจจุบันของคุณดูล้าสมัยสำหรับระดับของคุณ ลองพิมพ์อุปกรณ์ที่แขงแรงกว่าเพื่อแทนที่",
  	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
  	 	 	 	 	}
  	 	 	 	},
@@ -1170,17 +1170,17 @@
  	 	 	 	 	 	"eng": "Use AI Core"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "ดูเหมือนว่าคุณมีแกน AI ใช้พวกเขาเพื่อทำการปรับระดับอัตโนมัติ AFK ในพื้นที่ระดับที่เหมาะสม",
+ 	 	 	 	 	 	"trans": "ดูเหมือนว่าคุณมี AI Core อยู่บ้าง ใช้มันเพื่อปรับระดับ AFK อัตโนมัติในพื้นที่ระดับที่เหมาะสม",
  	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"noAiCore": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "รับแกน AI",
+ 	 	 	 	 	 	"trans": "รับ AI Core",
  	 	 	 	 	 	"eng": "Acquire AI Cores"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "คุณอาจได้รับแกน AI โดย: \n         - ขับไล่ในสถานที่ต่าง ๆ \n         - การประดิษฐ์กับโปรเซสเซอร์แฮชและเรื่องที่สนใจทางเทคนิค \n         - ปล้นสะดมจากศัตรูในทุกสถานที่",
+ 	 	 	 	 	 	"trans": "คุณอาจได้รับ AI Cores โดย: \n        - Scavenge ในสถานที่ต่างๆ\n        - การประดิษฐ์ด้วย Hash Processors และ Tech Scraps\n        - การปล้นสะดมศัตรูในทุกสถานที่",
  	 	 	 	 	 	"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
  	 	 	 	 	}
  	 	 	 	},
@@ -1202,7 +1202,7 @@
  	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "บังคับเข้าร่วมกับ Netrunners คนอื่น ๆ เพื่อทลาย SL-Data เพื่อให้ผู้เล่นทุกคนได้ Buff",
+ 	 	 	 	 	 	"trans": "รวมพลังกับ Netrunners คนอื่น ๆ เพื่อทำลาย SL-Data Fortress เพื่อให้ผู้เล่นทุกคนได้รับบัฟ",
  	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
  	 	 	 	 	}
  	 	 	 	},
@@ -1249,7 +1249,7 @@
  	 	 	},
  	 	 	"possibleReasons": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "นี่อาจเกิดจาก:",
+ 	 	 	 	 	"trans": "อาจเกิดจาก:",
  	 	 	 	 	"eng": "This could be caused by:"
  	 	 	 	},
  	 	 	 	"2": {
@@ -1257,7 +1257,7 @@
  	 	 	 	 	"eng": "1. You created multiple accounts to gain unfair advantage"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "2. คุณใช้ซอฟต์แวร์อัตโนมัติบางชนิดเพื่อรับประโยชน์ที่ไม่เป็นธรรมเช่น autoclicker, บอท ฯลฯ",
+ 	 	 	 	 	"trans": "2. คุณใช้ซอฟต์แวร์อัตโนมัติบางประเภทเพื่อให้ได้ข้อได้เปรียบที่ไม่เป็นธรรม เช่น ออโต้คลิ๊ก, บอท, ฯลฯ",
  	 	 	 	 	"eng": "2. You have used some kind of automated software to gain unfair advantage, such as autoclicker, bots, etc."
  	 	 	 	},
  	 	 	 	"4": {
@@ -1270,17 +1270,17 @@
  	 	 	 	}
  	 	 	},
  	 	 	"content": {
- 	 	 	 	"trans": "หากคุณมีคำถามใด ๆ โปรดติดต่อ Dexter โดยตรงผ่าน Discord อย่างเป็นทางการ (ลิงก์สามารถพบได้ในเมนูลอยน้ำ -> ลิงก์) หรืออีเมลไปที่ ching.huang.dexter@gmail.com",
+ 	 	 	 	"trans": "หากคุณมีคำถามใด ๆ โปรดติดต่อ Dexter โดยตรงผ่าน Discord อย่างเป็นทางการ (ลิงก์สามารถพบได้ในเมนูลอย -> ลิงก์) หรือส่งอีเมลไปที่ ching.huang.dexter@gmail.com",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
  	 	 	}
  	 	},
  	 	"tipsBox": {
  	 	 	"title": {
- 	 	 	 	"trans": "เคล็ดลับโปร",
+ 	 	 	 	"trans": "เคล็ดลับมือโปร",
  	 	 	 	"eng": "Pro Tips"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "คลิกเพื่อรับเคล็ดลับใหม่",
+ 	 	 	 	"trans": "คลิกเพื่อรับเคล็ดลับมือใหม่",
  	 	 	 	"eng": "Click to get new tips"
  	 	 	}
  	 	},
@@ -1292,7 +1292,7 @@
  	 	},
  	 	"tutorial": {
  	 	 	"title": {
- 	 	 	 	"trans": "แบบฝึกสอน",
+ 	 	 	 	"trans": "บทช่วยสอน",
  	 	 	 	"eng": "Tutorial"
  	 	 	}
  	 	},
