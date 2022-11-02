@@ -595,7 +595,7 @@
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "รายการสิ่งของ",
+ 	 	 	 	"trans": "คลังเก็บของ",
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"itemInbox": {
@@ -955,7 +955,7 @@
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "รายการสิ่งของ",
+ 	 	 	 	"trans": "คลังเก็บของ",
  	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
@@ -2827,7 +2827,7 @@
  	 	 	"vars": [
  	 	 	 	"item"
  	 	 	],
- 	 	 	"trans": "ไม่มีพื้นที่เพียงพอในสินค้าคงคลังของคุณในราคา ${item}",
+ 	 	 	"trans": "มีพื้นที่ไม่เพียงพอในคลังของคุณสำหรับ ${item}",
  	 	 	"eng": "There is no enough space in your inventory for ${item}"
  	 	},
  	 	"takeAll": {
@@ -2848,7 +2848,7 @@
  	 	 	 	"eng": "Discard"
  	 	 	},
  	 	 	"warning": {
- 	 	 	 	"trans": "รายการ / รายการด้านบนจะถูกยกเลิกและไม่ได้อยู่ในสินค้าคงคลังของคุณ การกระทำนี้กลับไม่ได้",
+ 	 	 	 	"trans": "ไอเท็ม/ไอเท็มด้านบนจะถูกยกเลิกและไม่อยู่ในสินค้าคงคลังของคุณ การดำเนินการนี้ไม่สามารถย้อนกลับได้",
  	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
  	 	 	}
  	 	}
@@ -4310,7 +4310,7 @@
  	 	 	 	"eng": "Old Pouch"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "กระเป๋าโบราณที่ถูกลืม \r\n         มีกบการ์ตูนแปลก ๆ ที่มีปากใหญ่และริมฝีปากสีแดงวาดที่ด้านข้างของมัน \r\n         ความหมายของภาพวาดลางสังหรณ์โบราณไม่เป็นที่รู้จัก แต่มันมีประโยชน์สำหรับการเก็บวัตถุขนาดเล็กไว้ในนั้น \r\n         เพิ่มพื้นที่สินค้าคงคลังเมื่อติดตั้ง",
+ 	 	 	 	"trans": "กระเป๋าโบราณที่ถูกลืม \r\n        พบรูปกบการ์ตูนประหลาด ๆ ที่มีปากสีแดงใหญ่วาดอยู่ด้านข้าง\r\n        ไม่ทราบความหมายของภาพวาดลางบอกเหตุโบราณ แต่สะดวกที่จะเก็บของเล็ก ๆ ใว้ข้างใน \r\n        เพิ่มพื้นที่คลังเก็บของเมื่อติดตั้ง",
  	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
  	 	 	}
  	 	},
